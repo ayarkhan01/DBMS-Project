@@ -1,0 +1,194 @@
+/* css for the entire MyORders Tab */
+
+.MyOrdersTab {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  background-color: white;
+  width: 30%;
+  position: absolute;
+  right: 0;
+}
+
+/* css for the heading div on teh MyOrder Tab */
+
+.headingMyOrder {
+  width: 100%;
+  border-style: groove;
+  border-color: rgb(241, 243, 251);
+  border-width: 0 0 1px 0;
+  position: relative;
+  display: flex;
+}
+
+.title {
+  font-size: 2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.clearCart {
+  background: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 0;
+  max-width: 30%;
+  min-height: 100%;
+  font-size: 0.7vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ----------------------------------------- */
+
+/* css for the to pay accorddian  */
+.toPay {
+  border-style: groove;
+  border-color: rgb(241, 243, 251);
+  border-width: 1px 0 0 0;
+}
+
+.accordion {
+  margin: 10px;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+.accordion-title:hover {
+  background-color: #e44862;
+}
+
+.accordion-title {
+  font-size: 1vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  align-items: center;
+  flex-wrap: "wrap";
+  text-align: center;
+}
+.accordion-content {
+  padding: 1rem;
+  align-items: center;
+  flex-wrap: "wrap";
+  text-align: center;
+  font-size: 0.8vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accordion-content {
+  background-color: rgba(252, 252, 252, 255);
+  border-color: rgb(211, 203, 203);
+  border-width: 0 0.5px 0.5px 0.5px;
+  border-style: solid;
+}
+
+/* ------------------------------------ */
+/* css for the instructions div */
+
+input {
+  box-sizing: border-box;
+  border-style: groove;
+  color: black;
+  width: 100%;
+  border-color: rgb(241, 243, 251);
+  border-width: 0 0 1px 0;
+  background-color: white;
+  padding: 1rem;
+  align-items: center;
+  font-size: 0.8vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.instruction {
+  padding: 10px;
+  font-size: 0.8vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* -------------------------------- */
+
+/* css for the chekout button */
+
+.checkout {
+  width: 75%;
+  margin: auto;
+  height: 3vw;
+  margin-bottom: 1vh;
+}
+
+.checkout {
+  background-image: linear-gradient(
+    to right,
+    #dd5e89 0%,
+    #f7bb97 51%,
+    #dd5e89 100%
+  );
+}
+
+.checkout {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 0.8vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.checkout:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit {
+  width: 20%;
+  margin: auto;
+  height: 3vw;
+  margin-bottom: 1vh;
+}
+
+.submit {
+  background-image: linear-gradient(
+    to right,
+    #dd5e89 0%,
+    #f7bb97 51%,
+    #dd5e89 100%
+  );
+}
+
+.submit {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 0.8vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+/* css for the menu items on each dish  */
+.menu {
+  /* background-color: beige; */
+  width: 70%;
+  position: absolute;
+  left: 0;
+}
+
+/* css for the catefory titles of each dish */
+.category {
+  font-weight: 560;
+  margin-left: 1vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,125 @@
+/* css for entire div of menu item */
+.myOrder {
+  margin: 10px;
+  position: relative;
+  height: 10vh;
+}
+
+.myOrder {
+  border-style: groove;
+  border-color: rgb(241, 243, 251);
+  border-width: 1px 0px;
+  position: relative;
+  padding: 1vw;
+}
+/* ----------------------------- */
+/* css for veg symbol and name of dish */
+
+.titleAndImage {
+  display: flex;
+  align-content: center;
+  max-width: 80%;
+  margin-bottom: 1vw;
+  max-height: 1vw;
+}
+.vegMyOrder {
+  height: 1vw;
+  margin-right: 0.2vw;
+  align-content: center;
+}
+
+.nameMyOrder {
+  font: 0.9vw "Fira Sans", sans-serif;
+  font-weight: 550;
+  overflow: hidden;
+}
+/* ----------------------------- */
+
+/* css for the basic price per dish */
+
+.priceMyOrder {
+  font: 0.8vw "Fira Sans", sans-serif;
+}
+
+/* ----------------------------- */
+/* css for the customize tag */
+
+.customize {
+  padding-top: 0.5vw;
+}
+.customMyOrder {
+  font: 0.9vw "Fira Sans", sans-serif;
+}
+
+/* ----------------------------- */
+
+/* css for adding and minusting buttons  */
+
+.buttonMyOrder {
+  border-radius: 25px;
+  border: 1px solid rgb(114, 113, 113);
+  position: absolute;
+  right: 0;
+  top: 13.75%;
+  width: 23%;
+  height: 15%;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.plus {
+  color: orangered;
+  width: 25%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font: 0.9vw "Fira Sans", sans-serif;
+  margin-right: 0.1vw;
+}
+.quantity {
+  color: orangered;
+  font: 0.9vw "Fira Sans", sans-serif;
+}
+.minus {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 0.1vw;
+  font: 0.9vw "Fira Sans", sans-serif;
+}
+
+/* ----------------------------- */
+
+/* css for the total price  */
+
+.totalPrice {
+  display: block;
+  position: absolute;
+  right: 0.7%;
+  margin: 2%;
+  top: 30%;
+  font: 0.8vw "Fira Sans", sans-serif;
+  font-weight: 550;
+}
+/* ----------------------------- */
+
+/* css for deleteing a button  */
+
+.deleteDish {
+  position: absolute;
+  right: 0;
+  bottom: 17.85%;
+  color: rgb(226, 59, 59);
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 25%;
+  font: 0.8vw "Fira Sans", sans-serif;
+}
+/* ----------------------------- */
