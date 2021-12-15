@@ -1,10 +1,10 @@
 {
-  "name": "create-nodejs-express-app",
-  "version": "1.7.0",
-  "description": "Create a Node.js app for building production-ready RESTful APIs using Express, by running one command",
+  "name": "Food-Ordering-System",
+  "version": "1.0.0",
+  "description": "Order yummy food with us",
   "main": "src/index.js",
   "repository": "shama",
-  "author": "gmail",
+  "author": "aaryan",
   "license": "ISC",
   "engines": {
     "node": ">=12.0.0"
