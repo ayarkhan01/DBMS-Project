@@ -1,6 +1,6 @@
 {
   "name": "Food-Ordering-System",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Order yummy food with us",
   "main": "src/index.js",
   "repository": "shama",
